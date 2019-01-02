@@ -10,8 +10,8 @@ namespace ICO_Template
     public class ICO_Template : SmartContract
     {
         //Token Settings
-        public static string Name() => "name of the token";
-        public static string Symbol() => "SymbolOfTheToken";
+        public static string Name() => "Conjure";
+        public static string Symbol() => "CONJURE";
         public static readonly byte[] Owner = { 47, 60, 170, 33, 216, 40, 148, 2, 242, 150, 9, 84, 154, 50, 237, 160, 97, 90, 55, 183 };
         public static byte Decimals() => 8;
         private const ulong factor = 100000000; //decided by Decimals()
